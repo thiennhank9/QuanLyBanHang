@@ -35,8 +35,10 @@
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v15.1" />
     <Reference Include="DevExpress.Data.v15.1" />
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v15.1" />
     <Reference Include="DevExpress.Sparkline.v15.1.Core" />
+    <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v15.1" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,17 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -69,6 +72,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,6 +83,47 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\low_32x32.png" />
+    <None Include="Resources\low_16x16.png" />
+    <None Include="Resources\printsortasc_32x32.png" />
+    <None Include="Resources\printsortasc_16x16.png" />
+    <None Include="Resources\printsortdesc_32x32.png" />
+    <None Include="Resources\printsortdesc_16x16.png" />
+    <None Include="Resources\printpreview_32x32.png" />
+    <None Include="Resources\printpreview_16x16.png" />
+    <None Include="Resources\resetchanges_32x32.png" />
+    <None Include="Resources\resetchanges_16x16.png" />
+    <None Include="Resources\changeview_32x32.png" />
+    <None Include="Resources\changeview_16x16.png" />
+    <Content Include="Resources\icon.ico" />
+    <Content Include="Resources\icon_BaoGia_32dp.png" />
+    <Content Include="Resources\icon_CuaHang_32dp.png" />
+    <Content Include="Resources\icon_CuaHang_64dp.png" />
+    <Content Include="Resources\icon_DangNhap_64dp.png" />
+    <Content Include="Resources\icon_KhachHang_32dp.png" />
+    <Content Include="Resources\icon_Kho_32dp.png" />
+    <Content Include="Resources\icon_LapBaoGia_32dp.png" />
+    <Content Include="Resources\icon_LoaiSanPham_32dp.png" />
+    <Content Include="Resources\icon_NhaCungCap_32dp.png" />
+    <Content Include="Resources\icon_PhucHoi_32dp.png" />
+    <Content Include="Resources\icon_SanPham_32dp.png" />
+    <Content Include="Resources\icon_SaoLuu_16dp.png" />
+    <Content Include="Resources\icon_SaoLuu_32dp.png" />
+    <Content Include="Resources\icon_ThuChi_32dp.png" />
+    <Content Include="Resources\icon_User_32dp.png" />
+    <Content Include="Resources\icon_User_64dp.png" />
+    <None Include="Resources\products_32x32.png" />
+    <None Include="Resources\products_16x16.png" />
+    <None Include="Resources\newproducts_32x32.png" />
+    <None Include="Resources\newproducts_16x16.png" />
+    <None Include="Resources\sales_32x32.png" />
+    <None Include="Resources\sales_16x16.png" />
+    <None Include="Resources\newsales_32x32.png" />
+    <None Include="Resources\newsales_16x16.png" />
+    <Content Include="Resources\nghiep_vu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
