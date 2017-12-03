@@ -13,9 +13,25 @@ namespace QuanLyBanHang
 {
     public partial class frmMain : DevExpress.XtraBars.Ribbon.RibbonForm
     {
+        //Fields
+        private ControllerForms controllerForms = new ControllerForms();
+
         public frmMain()
         {
             InitializeComponent();
         }
+
+        //Properties
+        //Function click button to show/active form
+        private void btnLapHDBH_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            controllerForms.showForm(0, this);
+        }
+
+        private void btnXemHDBH_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            controllerForms.showForm(1,this);
+        }
     }
+
 }

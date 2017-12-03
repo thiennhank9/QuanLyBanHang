@@ -52,11 +52,194 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControllerForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaiDatNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaiDatNguoiDung.Designer.cs">
+      <DependentUpon>frmCaiDatNguoiDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoaDonBanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoaDonBanHang.Designer.cs">
+      <DependentUpon>frmHoaDonBanHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoaDonDatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoaDonDatHang.Designer.cs">
+      <DependentUpon>frmHoaDonDatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhachHang.Designer.cs">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhachHangTuyChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhachHangTuyChinh.Designer.cs">
+      <DependentUpon>frmKhachHangTuyChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapBaoGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapBaoGia.Designer.cs">
+      <DependentUpon>frmLapBaoGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapHDBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapHDBH.Designer.cs">
+      <DependentUpon>frmLapHDBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapHDDH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapHDDH.Designer.cs">
+      <DependentUpon>frmLapHDDH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapPhieuNhap.Designer.cs">
+      <DependentUpon>frmLapPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapPhieuXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapPhieuXuat.Designer.cs">
+      <DependentUpon>frmLapPhieuXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoaiSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoaiSanPham.Designer.cs">
+      <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhaCungCap.Designer.cs">
+      <DependentUpon>frmNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhaCungCapTuyChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhaCungCapTuyChinh.Designer.cs">
+      <DependentUpon>frmNhaCungCapTuyChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhucHoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhucHoi.Designer.cs">
+      <DependentUpon>frmPhucHoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyBaoGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyBaoGia.Designer.cs">
+      <DependentUpon>frmQuanLyBaoGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyNguoiDung.Designer.cs">
+      <DependentUpon>frmQuanLyNguoiDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLyThuChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyThuChi.Designer.cs">
+      <DependentUpon>frmQuanLyThuChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSanPham.Designer.cs">
+      <DependentUpon>frmSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSaoLuu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaoLuu.Designer.cs">
+      <DependentUpon>frmSaoLuu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSuaPhieuChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuaPhieuChi.Designer.cs">
+      <DependentUpon>frmSuaPhieuChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSuaPhieuThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuaPhieuThu.Designer.cs">
+      <DependentUpon>frmSuaPhieuThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemLoaiSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemLoaiSP.Designer.cs">
+      <DependentUpon>frmThemLoaiSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemPhieuChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemPhieuChi.Designer.cs">
+      <DependentUpon>frmThemPhieuChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemPhieuThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemPhieuThu.Designer.cs">
+      <DependentUpon>frmThemPhieuThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemSanPham.Designer.cs">
+      <DependentUpon>frmThemSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThongTinCuaHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongTinCuaHang.Designer.cs">
+      <DependentUpon>frmThongTinCuaHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThongTinPhanMem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongTinPhanMem.Designer.cs">
+      <DependentUpon>frmThongTinPhanMem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTonKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTonKho.Designer.cs">
+      <DependentUpon>frmTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrangChu.Designer.cs">
+      <DependentUpon>frmTrangChu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,6 +269,16 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\status_32x32.png" />
+    <None Include="Resources\status_16x16.png" />
+    <None Include="Resources\support_32x32.png" />
+    <None Include="Resources\support_16x16.png" />
+    <None Include="Resources\viewsetting_32x32.png" />
+    <None Include="Resources\viewsetting_16x16.png" />
+    <None Include="Resources\save_32x32.png" />
+    <None Include="Resources\save_16x16.png" />
+    <None Include="Resources\printquick_32x32.png" />
+    <None Include="Resources\printquick_16x16.png" />
     <None Include="Resources\low_32x32.png" />
     <None Include="Resources\low_16x16.png" />
     <None Include="Resources\printsortasc_32x32.png" />
@@ -98,6 +291,10 @@
     <None Include="Resources\resetchanges_16x16.png" />
     <None Include="Resources\changeview_32x32.png" />
     <None Include="Resources\changeview_16x16.png" />
+    <None Include="Resources\costanalysis_16x16.png" />
+    <None Include="Resources\costanalysis_32x32.png" />
+    <None Include="Resources\expandcollapse_16x16.png" />
+    <None Include="Resources\expandcollapse_32x32.png" />
     <Content Include="Resources\icon.ico" />
     <Content Include="Resources\icon_BaoGia_32dp.png" />
     <Content Include="Resources\icon_CuaHang_32dp.png" />
@@ -123,6 +320,18 @@
     <None Include="Resources\sales_16x16.png" />
     <None Include="Resources\newsales_32x32.png" />
     <None Include="Resources\newsales_16x16.png" />
+    <None Include="Resources\newemployee_16x16.png" />
+    <None Include="Resources\newemployee_32x32.png" />
+    <None Include="Resources\meeting_16x16.png" />
+    <None Include="Resources\meeting_32x32.png" />
+    <None Include="Resources\mr_16x16.png" />
+    <None Include="Resources\newgroup_16x16.png" />
+    <None Include="Resources\newgroup_32x32.png" />
+    <None Include="Resources\knowledgebasearticle_32x32.png" />
+    <None Include="Resources\knowledgebasearticle_16x16.png" />
+    <None Include="Resources\knowledgebasearticle_32x321.png" />
+    <None Include="Resources\info_16x16.png" />
+    <None Include="Resources\info_32x32.png" />
     <Content Include="Resources\nghiep_vu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
