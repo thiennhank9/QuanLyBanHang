@@ -7,8 +7,7 @@ using System.Windows.Forms;
 
 namespace QuanLyBanHang
 {
-    //Class declare all form
-    class ControllerForms : DevExpress.XtraBars.Ribbon.RibbonForm
+    class ControllerForms
     {
         //Fields
         private static frmLapHDBH _frmLapHDBH = null;
@@ -30,7 +29,7 @@ namespace QuanLyBanHang
         //this function should be shorter --- any ideas???
         public void showForm(int indexForm, Form frmMain)
         {
-            switch(indexForm)
+            switch (indexForm)
             {
                 case 0:
                     if (this.frmLapHDBH != null)
@@ -55,7 +54,7 @@ namespace QuanLyBanHang
                 default:
                     return;
             }
-           
+
         }
     }
 }
